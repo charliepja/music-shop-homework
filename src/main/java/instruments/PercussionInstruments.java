@@ -1,5 +1,7 @@
 package instruments;
 
+import accessories.string.Strings;
+
 public enum PercussionInstruments {
 
     // NAME(DifficultyLevel, Sounds, NumberOfKeys, Sticks, Drum)

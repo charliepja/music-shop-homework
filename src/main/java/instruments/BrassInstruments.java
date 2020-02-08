@@ -1,5 +1,7 @@
 package instruments;
 
+import accessories.string.Strings;
+
 public enum BrassInstruments {
     // NAME(DifficultyLevel, Sound, Number_Of_Valves, Slider)
     TRUMPET("Easy", "Fart", 3, false),
