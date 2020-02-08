@@ -5,16 +5,14 @@ import behaviours.IPlay;
 public abstract class Instrument implements IPlay {
     private double buyingPrice;
     private double sellingPrice;
-    private String name;
+    private int weight;
     private String make;
     private String model;
-    private String sound;
 
-    public Instrument(String name, String make, String model, String sound, double buyingPrice, double sellingPrice) {
-        this.name = name;
+    public Instrument(String make, String model, int weight, double buyingPrice, double sellingPrice) {
         this.make = make;
         this.model = model;
-        this.sound = sound;
+        this.weight = weight;
         this.buyingPrice = buyingPrice;
         this.sellingPrice = sellingPrice;
     }
@@ -27,9 +25,10 @@ public abstract class Instrument implements IPlay {
         return this.sellingPrice;
     }
 
-    public String getName() {
-        return this.name;
+    public int getWeight() {
+        return this.weight;
     }
+
 
     public String getMake() {
         return this.make;
@@ -39,9 +38,6 @@ public abstract class Instrument implements IPlay {
         return this.model;
     }
 
-    public String getSound() {
-        return this.sound;
-    }
 
     public void setSellingPrice(double newPrice) {
         this.sellingPrice = newPrice;
