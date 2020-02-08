@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12496034-18dd-4ea6-8cd4-a97ca76cdb18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/Accessory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/SheetMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/brass/Valve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/percussion/Metronome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/string/Bows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/string/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/woodwind/Reeds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/brass/FenchHorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/brass/Trumpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/percussion/Piano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/percussion/Xylophone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/string/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/string/Violin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwind/Flute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwind/Saxaphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accessories/AccessoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accessories/SheetMusicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accessories/brass/ValveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accessories/percussion/MetronomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accessories/string/BowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accessories/string/StringsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accessories/woodwind/ReedsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/InstrumentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/brass/FenchHornTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/brass/TrumpetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/percussion/PianoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/percussion/XylophoneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/string/GuitarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/string/ViolinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/woodwind/FluteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/woodwind/SaxaphoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +17,42 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+              <folding>
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IPlay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ISheetMusic.java" />
         <option value="$PROJECT_DIR$/src/main/java/SheetMusic.java" />
         <option value="$PROJECT_DIR$/src/main/java/accessories/SheetMusic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" />
       </list>
     </option>
   </component>
@@ -123,6 +123,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicExchangeHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weekendhomework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviours" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="musicExchangeHomework" type="b2602c69:ProjectViewProjectNode" />
@@ -183,6 +191,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -274,13 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/accessories/Accessory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -327,13 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IPlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -467,6 +462,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
