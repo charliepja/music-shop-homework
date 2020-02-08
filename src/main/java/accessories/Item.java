@@ -1,6 +1,8 @@
 package accessories;
 
-public class Item {
+import behaviours.ISell;
+
+public class Item implements ISell {
     private String itemName;
     private String itemDescription;
     private Instruments intendedInstrument;
@@ -37,5 +39,9 @@ public class Item {
 
     public void setSellingPrice(double sellingPrice) {
         this.sellingPrice = sellingPrice;
+    }
+
+    public double calculateMarkUp() {
+        return getSellingPrice() - getBoughtPrice();
     }
 }

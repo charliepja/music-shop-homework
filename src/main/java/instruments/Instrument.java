@@ -1,8 +1,9 @@
 package instruments;
 
 import behaviours.IPlay;
+import behaviours.ISell;
 
-public abstract class Instrument implements IPlay {
+public abstract class Instrument implements IPlay, ISell {
     private double buyingPrice;
     private double sellingPrice;
     private int weight;
@@ -41,6 +42,10 @@ public abstract class Instrument implements IPlay {
 
     public void setSellingPrice(double newPrice) {
         this.sellingPrice = newPrice;
+    }
+
+    public double calculateMarkUp() {
+        return getSellingPrice() - getBuyingPrice();
     }
 
     public abstract String playInstrument();

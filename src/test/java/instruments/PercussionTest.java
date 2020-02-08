@@ -80,4 +80,9 @@ public class PercussionTest {
     public void canPlaySound() {
         assertEquals("A PIANO makes a pew pew sound!", piano.playInstrument());
     }
+
+    @Test
+    public void canGetProfit() {
+        assertEquals(1000.00, piano.calculateMarkUp(), 0.00);
+    }
 }

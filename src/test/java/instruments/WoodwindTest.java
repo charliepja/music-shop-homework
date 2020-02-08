@@ -75,4 +75,9 @@ public class WoodwindTest {
     public void canPlaySound() {
         assertEquals("A SAXOPHONE makes a Jazz Hands sound!", saxophone.playInstrument());
     }
+
+    @Test
+    public void canGetProfit() {
+        assertEquals(100.00, saxophone.calculateMarkUp(), 0.00);
+    }
 }

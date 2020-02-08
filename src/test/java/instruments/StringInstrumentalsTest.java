@@ -87,4 +87,9 @@ public class StringInstrumentalsTest {
     public void canPlaySound() {
         assertEquals("A GUITAR makes a rock and roll sound!", guitar.playInstrument());
     }
+
+    @Test
+    public void canGetProfit() {
+        assertEquals(100.00, guitar.calculateMarkUp(), 0.00);
+    }
 }

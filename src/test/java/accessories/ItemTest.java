@@ -43,4 +43,9 @@ public class ItemTest {
         newItem.setSellingPrice(7.00);
         assertEquals(7.00, newItem.getSellingPrice(), 0.00);
     }
+
+    @Test
+    public void canGetProfit() {
+        assertEquals(3.00, newItem.calculateMarkUp(), 0.00);
+    }
 }

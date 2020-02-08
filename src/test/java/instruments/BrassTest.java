@@ -80,4 +80,9 @@ public class BrassTest {
         assertEquals("A TRUMPET makes a Fart sound!", trumpet.playInstrument());
     }
 
+    @Test
+    public void canGetProfit() {
+        assertEquals(50.00, trumpet.calculateMarkUp(), 0.00);
+    }
+
 }
