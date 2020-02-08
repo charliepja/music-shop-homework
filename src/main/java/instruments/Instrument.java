@@ -1,6 +1,5 @@
 package instruments;
 
-import accessories.string.Strings;
 import behaviours.IPlay;
 
 public abstract class Instrument implements IPlay {
